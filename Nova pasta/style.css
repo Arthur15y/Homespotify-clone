@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 80%;
+    height: 200px;
+    float: right;
+    background-color: #800080;
+}
+
+header nav ul {
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+header nav ul li {
+    float: left;
+    margin-left: 200px;
+    font-size: 24px;
+    list-style-type: none;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+article {
+    width: 80%;
+    float: right;
+    background-color: #800080;
+    padding-bottom: 51px;
+}
+
+article h1 {
+    font-size: 32px;
+    color: white;
+    text-align: center;
+}
+
+article .musica {
+    margin-left: 150px;
+    margin-top: 50px;
+    display: inline-block;
+}
+
+article .musica img {
+    width: 200px;
+}
+
+article .musica h2 {
+    color: white;
+}
+
+aside {
+    width: 20%;
+    height: 850px;
+    background-color: #634576;
+}
+
+aside .hr1,
+.hr2,
+.hr3 {
+    background-color: black;
+    color: black;
+    width: 80%;
+    margin-left: 10%;
+}
+
+aside .hr1 {
+    position: relative;
+    top: 150px;
+}
+
+aside .hr2 {
+    position: relative;
+    top: 200px;
+}
+
+aside .hr3 {
+    position: relative;
+    top: 350px;
+}
+
+aside input {
+    position: relative;
+    top: 175px;
+    margin-left: 10%;
+    width: 80%;
+    height: 40px;
+    font-size: 24px;
+}
+
+aside .iconsearch {
+    float: right;
+    position: relative;
+    left: -40px;
+}
+
+aside h1 {
+    position: relative;
+    top: 270px;
+    margin-left: 10%;
+    color: white;
+}
+
+aside h1:hover {
+    text-decoration: underline;
+}
+
+aside .tocadas {
+    position: relative;
+    top: 370px;
+    margin-left: 10%;
+    color: white;
+}
+
+aside .playlist {
+    position: relative;
+    top: 400px;
+    margin-left: 10%;
+    margin-top: 30px;
+}
+
+aside .playlist h2 {
+    color: white;
+}
+
+aside .playlist h3 {
+    color: grey;
+}
+
+aside .dentro-do-aside {
+    margin-top: -85px;
+}
+
+footer {
+    width: 100%;
+    background-color: #B96EE8;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer .player {
+    margin-left: 44%;
+}
+
+footer .player img {
+    width: 100px;
+}
